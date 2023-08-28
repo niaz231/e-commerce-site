@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="this is an e commerce project">
+    <title>E commerce project</title>
+    <!-- font awosome cdn -->
+    <script src="https://kit.fontawesome.com/2361140ac5.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+   <!-- navbar start -->
+<nav>
+    <ul class="nav-upper flex-space-around">
+      <li class="nav-list">
+        <a href="index.html" class="nav-link">Home</a>
+      </li>
+
+      <li class="nav-list">
+        <a href="register.html" class="nav-link">Register</a>
+      </li>
+
+
+      <li class="nav-list">
+        <a href="login.html" class="nav-link">Login</a>
+      </li>
+
+
+      <li class="nav-list">
+        <a href="index.html" class="nav-link">Logout</a>
+      </li>
+
+      <li class="nav-list">
+        <a href="contact.html" class="nav-link">Contact</a>
+      </li>
+
+
+
+      <li class="nav-list">
+        <a href="profile.html" class="nav-link">
+            <img class="profile-icon" src="pic.jpg" alt="profile-icon">
+        </a>
+      </li>
+
+    </ul>
+
+
+
+
+
+
+
+
+<ul class="nav-lower flex-space-around">
+    <li class="nav-list">
+        <a class="nav-brand nav-link"  href="index.html">Niaz Express</a>
+    
+    </li>
+
+    <li class="nav-list">
+        <a class=" nav-link"  href="cart.html"><span><i class="fa-solid fa-cart-shopping"></i></span>
+            Cart 2 prducts - $124.40
+        </a>
+    
+    </li>
+</ul>
+
+</nav>
+
+
+
+   <!-- navbar end -->
+
+   <main>
+    <div class="cart flex-center">
+      <div class="cart-items ">
+
+        <div class="cart-items-header card">
+        <h3>Shopping Cart [2 Items]</h3>
+        <div class="cart-items-action">
+          <label for="select">
+            <input type="checkbox" name="select" id="select">Select All Items
+          </label>
+          <button class="btn"><i class="fa-solid fa-trash-can"></i></button>
+          <button class="btn"> Shop More</button>
+        </div>
+        </div>
+
+          <div class="cart-item- card flex-space-around">
+            
+            <label for="Shopping-product">
+              <input type="checkbox" name="Shopping-product" id="Shopping-product">
+            </label>
+
+
+            <!-- /* cart item img1 */ -->
+            <img src="pic3.jpg" alt="pic3" class="cart-item-img1"> 
+
+
+
+           <div class="cart-item-desc">
+            <h3 class="product-name">Redmi 12 C High Level Android Phone</h3>
+            <h4 class="product-price">$376.67</h4>
+            <p class="cart-item-shipping">Free</p>
+           </div>
+
+           <div class="cart-item-action">
+            <button class="btn">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+            <div>
+              <button class="btn"><i class="fa-solid fa-plus"></i></button>
+                <span>3</span>
+              <button class="btn"><i class="fa-solid fa-minus"></i></button>
+            </div>
+           </div>
+
+          </div>
+
+
+
+
+          <div class="cart-item- card flex-space-around">
+            
+            <label for="Shopping-product">
+              <input type="checkbox" name="Shopping-product" id="Shopping-product">
+            </label>
+
+            <img src="pic4.jpg" alt="pic4" class="cart-item-img">
+
+           <div class="cart-item-desc">
+            <h3 class="product-name">SONY BRAVIA  55 INCH 4K ULTRA HD </h3>
+            <h4 class="product-price">$676.67</h4>
+            <p class="cart-item-shipping">Shipping Cost: $3.55</p>
+           </div>
+
+           <div class="cart-item-action">
+            <button class="btn">
+              <i class="fa-solid fa-trash-can"></i>
+            </button>
+            <div>
+              <button class="btn"><i class="fa-solid fa-plus"></i></button>
+                <span>5</span>
+              <button class="btn"><i class="fa-solid fa-minus"></i></button>
+            </div>
+           </div>
+              
+          </div>
+      </div>
+
+
+
+      
+      <div class="cart-payment">
+        <div class="cart-payment-summary card">
+          <h2>Payment Summary</h2>
+          <div>
+            <p>Shipping Cost:</p>
+            <p>$376.67</p>
+          </div>
+       
+        <div>
+          <p>Shipping Cost:</p>
+          <p>$3.55</p>
+        </div>
+        <div>
+          <p>Total Cost:</p>
+          <p>$380.22</p>
+        </div>
+        <button class="btn cart-payment-btn">Payment Now</button>
+      </div>
+
+
+
+      <div class="cart-payment-methods card">
+        <h2>Payment Method</h2>
+
+        <div>
+          <i class="icon fa-brands fa-cc-visa " ></i>
+          <i class="icon fa-brands fa-cc-apple-pay "></i>
+          <i class="icon fa-brands fa-cc-amex "></i>
+          <i class="icon fa-brands fa-cc-paypal "></i>
+          <i class="icon fa-brands fa-cc-amazon-pay"></i>   
+               
+        </div>
+      </div>
+
+
+
+    </div>
+
+
+    
+
+
+
+    </div>
+
+
+
+
+</main>
+
+
+
+   <!-- footer start -->
+
+    <footer class=" flex-space-around">
+     
+       <div class="flex-space-around">
+        <label for="subscribe">Subscribe To News Letter</label>
+        <input type="email" id="subscribe" name="subscribe" placeholder="Your Email Address">
+        <button class="btn btn-subscribe">Subscribe</button>
+       </div>
+
+       <div>
+          &copy;Copyrights 2023 Niaz Express.all rights reserved.
+       </div>
+
+
+    </footer>
+
+
+
+
+   <!-- footer end -->
+</body>
+</html>
